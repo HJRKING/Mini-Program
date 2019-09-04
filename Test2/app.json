@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "orange",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath":"pages/home/home" ,
+        "text": "首页",
+        "iconPath": "assets/tabar/home.png",
+        "selectedIconPath": "assets/tabar/home.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "音乐",
+        "iconPath": "assets/tabar/music.png",
+        "selectedIconPath": "assets/tabar/music.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
