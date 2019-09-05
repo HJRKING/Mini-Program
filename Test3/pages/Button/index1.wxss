@@ -1,0 +1,5 @@
+/* pages/index1/index1.wxss */
+.pressed{
+   background: red;
+   color:white
+}

@@ -1,0 +1,6 @@
+<!--pages/Image/Image.wxml-->
+<!--Image组件可以写成单标签，也可以写出双标签-->
+<image src="../../assets/img/1.jpg"/>
+
+<button bindtap="select">选中图片</button>
+<image src="{{imagePath}}"></image>

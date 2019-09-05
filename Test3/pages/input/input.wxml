@@ -1,0 +1,12 @@
+<!--pages/input/input.wxml-->
+<input />
+
+<!--value-->
+<input value="呵呵呵"/>
+
+<!--type-->
+<input type="text"/>
+
+<input password/>
+
+<input placeholder="请输入密码"/>

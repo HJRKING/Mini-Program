@@ -1,0 +1,12 @@
+<!--pages/index1/index1.wxml-->
+<button size="mini">1</button>
+
+<button size="mini" type="primary">2</button>
+
+<button size="mini" plain>3</button>
+
+<button size="mini" disabled>4</button>
+
+<button size="mini" loading="{{isloading}}">5</button>
+
+<button size="mini" hover-class="pressed">6</button>

@@ -1,0 +1,16 @@
+<!--pages/index/index.wxml-->
+<text>Hello World\n</text>
+<text>WeChat\n</text>
+
+<!--selectable:决定文本能否被复制-->
+<text selectable>SElECTABLE\n</text>
+
+
+<!--space:决定空格的大小-->
+<text>Hello World\n</text>
+<text space="nbsp">Hello World\n</text>
+<text space="ensp">Hello World\n</text>
+<text space="emsp">Hello World\n</text>
+
+<!--decode：是否解码文本-->
+<text decode="false">Hello World</text>
