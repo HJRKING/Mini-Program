@@ -1,0 +1,35 @@
+<!--pages/wxml/wxml.wxml-->
+<view style="color:red;font-size:32px">hhh</view>
+
+<view class="box"></view>
+<view class="box1"></view>
+<text class="content">哈哈哈哈\n</text>
+<text class="content2">嘿嘿嘿嘿\n</text>
+
+
+<text>{{message}}\n</text>
+<view>{{age>18?"成年人":"未成年人"}}\n</view>
+<view>{{nowtime}}</view>
+
+<button bindtap="changeColor">切换颜色</button>
+<view class='box3 {{isAction ? "active":""}}'>hhh</view>
+
+<button bindtap="changeShow">切换显示</button>
+<view wx:if="{{isShow}}">hhh</view>
+
+<view wx:for="{{['a','b','c']}}">{{item}} {{index}}</view>
+<view wx:for="coderwhy">{{item}} {{index}}</view>
+<view wx:for="{{9}}">{{item}} {{index}}</view> 
+
+
+<template name="contentItem">
+  <button >{{btnText}} </button>
+  <view>{{context}}</view>
+</template>
+
+<template is="contentItem" data="{{btnText:'按钮' ,context:'哈哈哈'}}"/>
+
+
+<import src="./template.wxml"/>
+
+

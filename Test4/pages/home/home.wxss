@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+.box{
+  width: 300px;
+  height: 200px;
+  background: orange
+}

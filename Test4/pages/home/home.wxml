@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<button bindtap="Onclick">按钮</button>
+<button bind:tap="Onclick">按钮</button>
+<button catch:tap="Onclick">按钮</button>
+
+<!--常见的一些事件-->
+<view class="box">
+</view>
+
+
+

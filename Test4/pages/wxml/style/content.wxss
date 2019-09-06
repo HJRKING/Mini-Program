@@ -1,0 +1,6 @@
+.content{
+  font-size: 50px;
+}
+.content2{
+  font-size: 100rpx;
+}
