@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "my-com": "/components/my-com/my-com",
+    "my-com2": "/components/my-com2/my-com2",
+    "my-event": "/components/my-event/my-event",
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "my-set": "/components/my-set/my-set",
+    "my-slot": "/components/my-slot/my-slot",
+    "my-slots": "/components/my-slots/my-slots"
+  }
+}

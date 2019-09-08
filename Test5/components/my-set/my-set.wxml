@@ -1,0 +1,2 @@
+<!--components/my-set/my-set.wxml-->
+<view>组件内的计数:{{count}}</view>

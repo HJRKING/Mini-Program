@@ -1,0 +1,8 @@
+<!--pages/test1/test1.wxml-->
+
+<button size="mini" bindtap="handleShowToast">handleShowToast</button>
+<text class="text1">hhh</text>
+<button size="mini" bindtap="handleShowModal">handleShowModal</button>
+<button size="mini" bindtap="handleShowLoading">handleShowLoading</button>
+<text class="text1">hhh</text>
+<button size="mini" bindtap="handleShowAction">handleShowAction</button>

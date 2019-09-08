@@ -1,0 +1,4 @@
+<!--components/my-com/my-com.wxml-->
+<view >我是自定义组件</view>
+<view >我是自定义组件的内容</view>
+<view class="my-com">dddddd</view>

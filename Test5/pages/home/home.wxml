@@ -1,0 +1,47 @@
+<!--pages/home/home.wxml-->
+
+
+<view class="tab-control">
+  <block wx:for="{{clothes}}" wx:key="{{index}}">
+    <view class="item" bindtap="ItemcClick" data-index="{{index}}" data-item="{{item}}">
+      {{item}}
+    </view>
+  </block>
+</view>
+
+
+<!-- <view class="view3" capture-bind:tap="cview1" bindtap="bview1">
+    <view class="view2" capture-bind:tap="cview2" bindtap="bview2">
+      <view class="view1" capture-bind:tap="cview3" bindtap="bview3">
+      </view>
+    </view>
+ </view>
+  -->
+<my-com class="view4"></my-com>
+
+<my-com2 title="呵呵呵" titleclass="red" />
+<my-com2 title="哦哦哦" titleclass="blue" />
+
+<view>当前计数:{{count}}</view>
+<my-event bind:increment="click" />
+
+<w-tab-control titles="{{['衣服','裤子','帽子']}}" bind:itemclick="itemclick" />
+
+<button size="mini" bindtap="updateData">修改组件内数据</button>
+<my-set id="count" />
+
+<!--插槽的使用（slot）-->
+<my-slot>
+  <button size="mini">我是button</button>
+</my-slot>
+
+<my-slot>
+  <text>111</text>
+</my-slot>
+
+
+<my-slots>
+  <button size="mini" slot="slot1">hhh1</button>
+  <button size="mini" slot="slot2">hhh2</button>
+  <button size="mini" slot="slot3">hhh3</button>
+</my-slots>
